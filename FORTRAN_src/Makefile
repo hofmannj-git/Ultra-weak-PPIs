@@ -49,7 +49,7 @@ endif
 
 # No machine-specific variables below
 
-programs = bin_msd_tri cluster_dist_tri cluster_dist_tri_time nc_dist_tri pair_dist_func pair_distance_time bindtime_pairtraj kd_state_percbound
+programs = bin_msd_tri cluster_dist_tri cluster_dist_tri_time nc_dist_tri pair_dist_func pair_distance_time kd_state_percbound
 modules = mod_particle mod_fftw3 mod_constants mod_domain mod_data mod_group mod_cells mod_stat_func mod_statistics
 
 programs_obj = $(programs:=.o)
